@@ -1,0 +1,18 @@
+﻿body {
+}
+
+div.Contenedor{
+    display:flex;
+    justify-content:space-between;
+}
+
+div.LogIn{
+    margin:40px;
+    margin-right:100px;
+}
+
+div.Registrarse{
+    margin:40px;
+    margin-right:100px;
+    text-align:center;
+}

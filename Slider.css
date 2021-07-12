@@ -1,0 +1,40 @@
+﻿div.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.Slider {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    max-width: 681px;
+    margin: 0;
+    align-items: center;
+}
+
+ul.Slider>li {
+    text-align: center;
+    transition: 1s;
+}
+
+img.Next {
+    max-width: 30px;
+    max-height: 30px;
+    transition: 1s;
+}
+
+img:hover {
+    background-color: grey;
+    transition: 1s;
+}
+
+img.Prev {
+    max-width: 30px;
+    max-height:30px;
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+
